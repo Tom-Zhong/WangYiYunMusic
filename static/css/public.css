@@ -1,0 +1,32 @@
+/*
+* @Author: Zhongguiyong
+* @Date:   2017-03-09 15:20:13
+* @Last Modified by:   Zhongguiyong
+* @Last Modified time: 2017-03-09 19:37:59
+*/
+.sprite{
+background: url("../images/sprite.png") no-repeat 0 9999px;
+}
+/*淡入淡出的效果*/
+.discover-triangle{
+	width: 14px;
+    height: 9px;
+    background-position: -226px 0;
+    position: absolute;
+    bottom: -1px;
+    left: 41px;
+    z-index: 150;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.mymusic-triangle{
+	width: 14px;
+    height: 9px;
+    background-position: -226px 0;
+    position: absolute;
+    bottom: -1px;
+    left: 40px;
+    z-index: 150;
+    opacity: 0;
+    transition: opacity .2s;
+}

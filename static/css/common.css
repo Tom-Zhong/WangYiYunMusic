@@ -1,0 +1,210 @@
+
+/* @Author: Zhongguiyong
+* @Date:   2017-03-09 15:07:18
+* @Last Modified by:   Zhongguiyong
+* @Last Modified time: 2017-03-11 15:29:38
+*/
+/*==============================
+common.start
+================================= */
+html,body {
+    background: #fff;
+    color:#000;
+}
+/*定义宽度100%*/
+html,body {
+	width: 100%;
+}
+/*定义页面宽度最小1400px;*/
+html,body {
+	min-width: 982px;
+    background: rgb(245, 245, 245)	
+}
+
+/*body相对定位*/
+body {
+	position: relative;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family:  "Microsoft Yahei",Verdana, "Lantinghei SC", "Hiragino Sans GB", Helvetica, arial, \5b8b\4f53, sans-serif
+
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*清除列表默认样式*/
+ul,li {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: none;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+    *font-size: 100%;
+}
+
+legend {
+    color: #000;
+}
+
+del,
+ins {
+    text-decoration: none;
+}
+
+small {
+    font-size: 100%;
+}
+
+/*清除链接默认样式*/
+a{
+    text-decoration:none;
+}
+a:link {
+    color:#000;
+}
+
+a:visited {
+    color:#000;
+}
+
+/*a:hover { 
+    color:#c1831c;
+}
+
+a:active {
+    color:#c1831c;
+}*/
+
+/*清除输入框外框样式*/
+input {
+	outline:none;
+    border:none;
+}
+
+
+/*字体使用提示*/
+/*mg-header,mg-date,mg-footer，mg-header下拉菜单栏内容字体使用提示*/
+.f12 {
+	font-size: 12px;
+}
+
+/*mg-role,mg-news,,mg-intro,mg-same,
+mg-source，mg-role点击主角以后人物介绍，
+mg-service的“公众号”后面内容字体
+文字字体内容字体提示*/
+.f14 {
+	font-size: 14px;
+}
+/*半透明导航栏,mg-service扫描二维码的提示文字*/
+.f16 {
+	font-size: 16px;
+}
+/*mg-role人物引导名字前缀标题字体使用提示，mg-role点击主角以后人物介绍文字字体标题*/
+.f18 {
+    font-size:18px;
+}
+.fl {
+    float:left;
+}
+.fr{
+    float:right;
+}
+/*==============================
+common.end
+================================= 
